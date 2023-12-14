@@ -1,0 +1,4 @@
+name: MagicWand
+version: '${project.version}'
+main: play.magicwand.MagicWand
+api-version: '1.20'
