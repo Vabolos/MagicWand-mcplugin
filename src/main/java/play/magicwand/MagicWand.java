@@ -41,8 +41,8 @@ public class MagicWand extends JavaPlugin implements Listener {
     private void createFireworkTrail(Player player) {
         Location playerLoc = player.getEyeLocation();
         Vector direction = playerLoc.getDirection();
-        final int trailLength = 40; // Length of the firework trail
-        final double spaceBetweenFireworks = 1.5; // Space between each firework
+        final int trailLength = 30; // Length of the firework trail
+        final double spaceBetweenFireworks = 1; // Space between each firework
 
         for (int i = 0; i < trailLength; i++) {
             Location spawnLoc = playerLoc.clone().add(direction.clone().multiply(i * spaceBetweenFireworks));
